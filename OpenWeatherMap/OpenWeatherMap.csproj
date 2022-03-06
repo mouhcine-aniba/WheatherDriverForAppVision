@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="appCommon">
+      <HintPath>..\..\..\..\..\..\..\Program Files\AppVision 4\Bin\appCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="appData">
+      <HintPath>..\..\..\..\..\..\..\Program Files\AppVision 4\Bin\appData.dll</HintPath>
+    </Reference>
+    <Reference Include="appSDK">
+      <HintPath>..\..\..\..\..\..\..\Program Files\AppVision 4\Bin\appSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
